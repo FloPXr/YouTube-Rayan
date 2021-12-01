@@ -22,8 +22,16 @@ body {
     background-color: rgba(255,255,255,0.2);
 }
 
+.s {
+   padding-left: 425px;
+}
+
 .search {
-    border-radius: 20px;
+    padding-right: 375px;
+    color: black;
+    background-color: rgb(38, 38, 38);
+    
+
 }
 
 .content {
@@ -51,11 +59,16 @@ body {
     display: flex;
 }
 
-.imglp {
-    padding-left: 5px;
-}
 
-.imglp:hover {
+.button-search{
+    background-color: rgb(84, 83, 83);
+}
+.btns {
     padding-left: 5px;
+    width: 50px;
+    height: 21px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
 }
 
